@@ -10,7 +10,8 @@ int main(int avg, char** argv) {
 	q1.push(N2);
 	cout << "front: " << q1.front() << "\n";
 	cout << "back: " << q1.back() << "\n";
-	cout << "empty?: " << q1.empty() << "\n";
+	//q가 비어있으면 1, 비어있지 않으면 0;
+	cout << "empty: " << q1.empty() << "\n";
 	cout << "size: " << q1.size() << "\n";
 	q1.pop();
 	cout << "size: " << q1.size() << "\n";
