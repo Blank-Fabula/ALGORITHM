@@ -2,7 +2,7 @@
 #include <ctime>
 using namespace std;
 
-int main(){
+int main(int avg, char** argv){
         clock_t start, stop;
 	start = clock();
 	//측정하는 코드;
