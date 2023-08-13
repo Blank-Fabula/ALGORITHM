@@ -1,4 +1,4 @@
-//[배열에 존재 하지 않을 경우 -1을 반환];
+/*[배열에 존재 하지 않을 경우 -1을 반환]*/
 //순차탐색(sequential_search);
 int sequential_search(int size, vector<int>& list, int target) {
 	for (int i = 0; i < size; i++) {
